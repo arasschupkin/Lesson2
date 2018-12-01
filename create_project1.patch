@@ -1,0 +1,20 @@
+Index: app/src/main/java/ru/level3/lesson2/lesson2/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/ru/level3/lesson2/lesson2/MainActivity.java	(date 1543444928000)
++++ app/src/main/java/ru/level3/lesson2/lesson2/MainActivity.java	(date 1543445025420)
+@@ -2,9 +2,12 @@
+ 
+ import android.support.v7.app.AppCompatActivity;
+ import android.os.Bundle;
++import android.widget.EditText;
+ 
+ public class MainActivity extends AppCompatActivity {
+ 
++    EditText txtEdit;
++
+     @Override
+     protected void onCreate(Bundle savedInstanceState) {
+         super.onCreate(savedInstanceState);
