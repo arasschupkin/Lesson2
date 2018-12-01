@@ -20,7 +20,6 @@ import io.reactivex.subjects.BehaviorSubject;
 
 public class MainActivity extends AppCompatActivity {
 
-    public
     //Создание переменных
     EditText txtEdit;
     TextView txtView;
